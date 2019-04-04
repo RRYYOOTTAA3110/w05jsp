@@ -11,7 +11,7 @@
 	<ul>
 		<li>誕生日を入力してください。</li>
 	</ul>
-	<form method="post" action="/w05jsp/display.jsp">
+	<form method="post" action="/w05jsp/displayBirthday.jsp">
 		<select name="year">
 			<%
 				for(int i = 2009; i >= 1900; i-- ){
